@@ -41,6 +41,11 @@ def arrive_to_opt(old, new):
     return False
 
 def gmm(H):
+    '''
+    
+    :param H: test
+    :return: test
+    '''
     N = len(H)
     b_mu = 178.0
     b_sigma2 = 1.0
