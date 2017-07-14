@@ -16,6 +16,7 @@ def get_normal_data(N, b_mu, b_sigma, g_mu, g_sigma, b_prob, g_prob):
     return H
 
 
+
 def get_fai(x, mu, sigma):
     exponent = math.exp(-(math.pow(x - mu, 2)) / (2 * math.pow(sigma, 2)))
     prob = (1. / (math.sqrt(2 * math.pi) * sigma)) * exponent
